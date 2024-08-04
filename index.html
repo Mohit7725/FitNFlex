@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        .bg-custom {
+            background-image: url('assets/bg1.jpg');
+            background-size: cover;
+            background-position: center;
+            
+            
+        }
+        .full-height {
+            height: 100vh;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#">FitNFlex  <img src="assets/logo.svg" alt="FitNFlex Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-custom jumbotron-fluid text-center text-white vh-100 d-flex align-items-center justify-content-center ">
+        <div class="container">
+            <h1 class="display-4">Welcome to Our Gym <i class="bi bi-heart-fill"></i></h1>
+            <p class="lead fs-5">Your fitness journey starts here. Join us today!</p>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+     <h2 class="text-center mt-5 fs-5">Our Training Program</h2>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="card">
+                    <img src="assets/Cardio.jpg" class="card-img-top" alt="Cardio">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardio Training</h5>
+                        <p class="card-text">Burn calories and improve your cardiovascular health with our cardio workouts.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card">
+                    <img src="assets/st.png" class="card-img-top" alt="Strength">
+                    <div class="card-body">
+                        <h5 class="card-title">Strength Training</h5>
+                        <p class="card-text">Build muscle and gain strength with our state-of-the-art equipment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="card">
+                    <img src="assets/yoga.png" class="card-img-top" alt="Yoga">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga Classes</h5>
+                        <p class="card-text">Enhance your flexibility and peace of mind with our yoga sessions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-danger text-white text-center py-3">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 72 72">
+            <path fill="#060000" fill-rule="evenodd" d="M36,13c13.25,0,24,11.369,24,23.5c0,13-9.5,23-21,24.25V43h4	l2-5.029L39,38v-4.73c0-1.254,1.016-2.27,2.27-2.27c0.902,0,1.73,0,1.73,0v-4h-4.255c-1.524,0-2.985,0.605-4.062,1.683	C33.605,29.76,33,31.221,33,32.745c0,2.653,0,5.226,0,5.226h-4V43h4v17.75c-11.5-1.25-21-11-21-24.25C12,24.369,22.5,13,36,13z" clip-rule="evenodd"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+            <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="70" height="70" viewBox="0 0 72 72">
+            <path d="M61.115,18.856C63.666,21.503,64,25.709,64,36s-0.334,14.497-2.885,17.144C58.563,55.791,55.906,56,36,56	s-22.563-0.209-25.115-2.856C8.334,50.497,8,46.291,8,36s0.334-14.497,2.885-17.144S16.094,16,36,16S58.563,16.209,61.115,18.856z M31.464,44.476l13.603-8.044l-13.603-7.918V44.476z"></path>
+        </svg>
+        <p class="mt-2">&copy; 2024 FitNFlex. All Rights Reserved.</p>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
